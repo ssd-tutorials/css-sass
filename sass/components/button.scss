@@ -1,0 +1,63 @@
+@import "library/button";
+
+.buttonRed {
+  @include button($color:$color-red);
+}
+
+.buttonYellow {
+  @include button($color:$color-yellow);
+}
+
+.buttonBlueMedium {
+  @include button($color:$color-blue-medium);
+}
+
+.buttonGreen {
+  @include button($color:$color-green);
+}
+
+.buttonOrange {
+  @include button($color:$color-orange);
+}
+
+.buttonBlue {
+  @include button($color:$color-blue);
+}
+
+.buttonGreenLight {
+  @include button($color:$color-green-light);
+}
+
+.buttonPinkDark {
+  @include button($color:$color-pink-dark);
+}
+
+.buttonBeige {
+  @include button($color:$color-beige);
+}
+
+.buttonBlueDark {
+  @include button($color:$color-blue-dark);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

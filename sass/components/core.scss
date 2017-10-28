@@ -1,0 +1,32 @@
+* {
+  @extend %zeroPaddingMargin;
+}
+
+body {
+
+  @extend %fontFamily1;
+
+  padding: 20px 0;
+
+}
+
+.wrapper {
+
+  text-align: left;
+  margin: 0 auto;
+
+  @extend %sizing-box-border-box;
+  @extend %clearfix;
+
+  @include width($layout-width);
+
+}
+
+.divider {
+
+  width: 100%;
+  height: 1em;
+  @extend %clearfix;
+  border-top: solid 1px $color-black;
+
+}

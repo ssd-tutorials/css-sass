@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+$support-old-browsers : false;
+
+$base-em-from-px : 16;
+
+$layout-width : 1000;
+
+$global-border-radius : 500px;
+$global-border-radius-small : 4px;
+$global-border-radius-one-corner : 10px;
+$global-box-sizing: border-box;
+$global-opacity : 1;
+
+$font-family-1 : Arial, sans-serif;
+$font-family-2 : 'Sansita One', cursive;
+
+$color-white : #fff;
+$color-black : #000;
+
+$color-red : #f77c77;
+$color-yellow : #e5cb6c;
+$color-blue-medium : #3170ac;
+$color-green : #6ecca8;
+$color-orange : #fba41f;
+$color-blue : #3CBDDC;
+$color-green-light : #1CBB9F;
+$color-pink-dark : #B86366;
+$color-beige : #D89F5E;
+$color-blue-dark : #44525B;
+
+$button-size-small : 11;
+$button-size-medium : 14;
+$button-size-large : 18;
+
+$button-size-default : $button-size-medium;
+
+$button-border-top-width : 1px;
+$button-border-right-width : 1px;
+$button-border-left-width : 1px;
+
+$button-border-radius : $global-border-radius;
+$button-border-radius-small : $global-border-radius-small;
+$button-border-radius-one-corner : $global-border-radius-one-corner;
+$button-cursor : pointer;
+$button-font-family : $font-family-2;
+$button-font-weight : normal;
+
+$button-shadow-size : 0 1px 0 0;
+$button-shadow-color : transparentize($color-white, 0.5);
+$button-shadow-color-active : transparentize($color-white, 0.5);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

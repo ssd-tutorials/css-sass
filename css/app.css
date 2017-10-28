@@ -1,0 +1,192 @@
+@charset "UTF-8";
+*, .buttonRed, .buttonYellow, .buttonBlueMedium, .buttonGreen, .buttonOrange, .buttonBlue, .buttonGreenLight, .buttonPinkDark, .buttonBeige, .buttonBlueDark {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: Arial, sans-serif; }
+
+.wrapper:before, .divider:before, .wrapper:after, .divider:after {
+  content: " ";
+  display: table; }
+.wrapper:after, .divider:after {
+  clear: both; }
+
+.wrapper, .buttonRed, .buttonYellow, .buttonBlueMedium, .buttonGreen, .buttonOrange, .buttonBlue, .buttonGreenLight, .buttonPinkDark, .buttonBeige, .buttonBlueDark {
+  box-sizing: border-box; }
+
+body {
+  padding: 20px 0; }
+
+.wrapper {
+  text-align: left;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 62.5em; }
+
+.divider {
+  width: 100%;
+  height: 1em;
+  border-top: solid 1px black; }
+
+.buttonRed, .buttonYellow, .buttonBlueMedium, .buttonGreen, .buttonOrange, .buttonBlue, .buttonGreenLight, .buttonPinkDark, .buttonBeige, .buttonBlueDark {
+  display: inline-block;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-style: solid;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Sansita One", cursive;
+  font-weight: normal;
+  margin-bottom: 1em;
+  font-size: 0.875em;
+  line-height: 0.875em;
+  padding: 0.58333em 1.05em;
+  border-bottom-width: 0.2625em; }
+  .small.buttonRed, .small.buttonYellow, .small.buttonBlueMedium, .small.buttonGreen, .small.buttonOrange, .small.buttonBlue, .small.buttonGreenLight, .small.buttonPinkDark, .small.buttonBeige, .small.buttonBlueDark {
+    font-size: 0.6875em;
+    line-height: 0.6875em;
+    padding: 0.45833em 0.825em;
+    border-bottom-width: 0.20625em; }
+  .large.buttonRed, .large.buttonYellow, .large.buttonBlueMedium, .large.buttonGreen, .large.buttonOrange, .large.buttonBlue, .large.buttonGreenLight, .large.buttonPinkDark, .large.buttonBeige, .large.buttonBlueDark {
+    font-size: 1.125em;
+    line-height: 1.125em;
+    padding: 0.75em 1.35em;
+    border-bottom-width: 0.3375em; }
+
+.shadow.buttonRed, .shadow.buttonYellow, .shadow.buttonBlueMedium, .shadow.buttonGreen, .shadow.buttonOrange, .shadow.buttonBlue, .shadow.buttonGreenLight, .shadow.buttonPinkDark, .shadow.buttonBeige, .shadow.buttonBlueDark {
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.5) inset; }
+  .shadow.buttonRed:active, .shadow.buttonYellow:active, .shadow.buttonBlueMedium:active, .shadow.buttonGreen:active, .shadow.buttonOrange:active, .shadow.buttonBlue:active, .shadow.buttonGreenLight:active, .shadow.buttonPinkDark:active, .shadow.buttonBeige:active, .shadow.buttonBlueDark:active {
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.5) inset; }
+
+.rounded.buttonRed, .rounded.buttonYellow, .rounded.buttonBlueMedium, .rounded.buttonGreen, .rounded.buttonOrange, .rounded.buttonBlue, .rounded.buttonGreenLight, .rounded.buttonPinkDark, .rounded.buttonBeige, .rounded.buttonBlueDark {
+  border-radius: 500px; }
+
+.roundedSmall.buttonRed, .roundedSmall.buttonYellow, .roundedSmall.buttonBlueMedium, .roundedSmall.buttonGreen, .roundedSmall.buttonOrange, .roundedSmall.buttonBlue, .roundedSmall.buttonGreenLight, .roundedSmall.buttonPinkDark, .roundedSmall.buttonBeige, .roundedSmall.buttonBlueDark {
+  border-radius: 4px; }
+
+.roundedLeft.buttonRed, .roundedLeft.buttonYellow, .roundedLeft.buttonBlueMedium, .roundedLeft.buttonGreen, .roundedLeft.buttonOrange, .roundedLeft.buttonBlue, .roundedLeft.buttonGreenLight, .roundedLeft.buttonPinkDark, .roundedLeft.buttonBeige, .roundedLeft.buttonBlueDark {
+  border-top-left-radius: 500px;
+  border-bottom-left-radius: 500px; }
+
+.roundedRight.buttonRed, .roundedRight.buttonYellow, .roundedRight.buttonBlueMedium, .roundedRight.buttonGreen, .roundedRight.buttonOrange, .roundedRight.buttonBlue, .roundedRight.buttonGreenLight, .roundedRight.buttonPinkDark, .roundedRight.buttonBeige, .roundedRight.buttonBlueDark {
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px; }
+
+.roundedLeftBottom.buttonRed, .roundedLeftBottom.buttonYellow, .roundedLeftBottom.buttonBlueMedium, .roundedLeftBottom.buttonGreen, .roundedLeftBottom.buttonOrange, .roundedLeftBottom.buttonBlue, .roundedLeftBottom.buttonGreenLight, .roundedLeftBottom.buttonPinkDark, .roundedLeftBottom.buttonBeige, .roundedLeftBottom.buttonBlueDark {
+  border-bottom-left-radius: 10px; }
+
+.roundedRightBottom.buttonRed, .roundedRightBottom.buttonYellow, .roundedRightBottom.buttonBlueMedium, .roundedRightBottom.buttonGreen, .roundedRightBottom.buttonOrange, .roundedRightBottom.buttonBlue, .roundedRightBottom.buttonGreenLight, .roundedRightBottom.buttonPinkDark, .roundedRightBottom.buttonBeige, .roundedRightBottom.buttonBlueDark {
+  border-bottom-right-radius: 10px; }
+
+.roundedLeftTop.buttonRed, .roundedLeftTop.buttonYellow, .roundedLeftTop.buttonBlueMedium, .roundedLeftTop.buttonGreen, .roundedLeftTop.buttonOrange, .roundedLeftTop.buttonBlue, .roundedLeftTop.buttonGreenLight, .roundedLeftTop.buttonPinkDark, .roundedLeftTop.buttonBeige, .roundedLeftTop.buttonBlueDark {
+  border-top-left-radius: 10px; }
+
+.roundedRightTop.buttonRed, .roundedRightTop.buttonYellow, .roundedRightTop.buttonBlueMedium, .roundedRightTop.buttonGreen, .roundedRightTop.buttonOrange, .roundedRightTop.buttonBlue, .roundedRightTop.buttonGreenLight, .roundedRightTop.buttonPinkDark, .roundedRightTop.buttonBeige, .roundedRightTop.buttonBlueDark {
+  border-top-right-radius: 10px; }
+
+.disabled.buttonRed, .disabled.buttonYellow, .disabled.buttonBlueMedium, .disabled.buttonGreen, .disabled.buttonOrange, .disabled.buttonBlue, .disabled.buttonGreenLight, .disabled.buttonPinkDark, .disabled.buttonBeige, .disabled.buttonBlueDark {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  cursor: default; }
+
+.buttonRed {
+  border-color: #f34038;
+  background-color: #f77c77;
+  color: white;
+  text-shadow: 0 0 2px #e1160d;
+  transition: background-color 300ms ease-out; }
+  .buttonRed:hover, .buttonRed:focus {
+    background-color: #f55750;
+    color: white; }
+
+.buttonYellow {
+  border-color: #dbb734;
+  background-color: #e5cb6c;
+  color: white;
+  text-shadow: 0 0 2px #b2931f;
+  transition: background-color 300ms ease-out; }
+  .buttonYellow:hover, .buttonYellow:focus {
+    background-color: #dfbf49;
+    color: white; }
+
+.buttonBlueMedium {
+  border-color: #224e78;
+  background-color: #3170ac;
+  color: white;
+  text-shadow: 0 0 2px #152f49;
+  transition: background-color 300ms ease-out; }
+  .buttonBlueMedium:hover, .buttonBlueMedium:focus {
+    background-color: #285b8c;
+    color: white; }
+
+.buttonGreen {
+  border-color: #40b78a;
+  background-color: #6ecca8;
+  color: white;
+  text-shadow: 0 0 2px #318a68;
+  transition: background-color 300ms ease-out; }
+  .buttonGreen:hover, .buttonGreen:focus {
+    background-color: #50c196;
+    color: white; }
+
+.buttonOrange {
+  border-color: #d48204;
+  background-color: #fba41f;
+  color: white;
+  text-shadow: 0 0 2px #985d03;
+  transition: background-color 300ms ease-out; }
+  .buttonOrange:hover, .buttonOrange:focus {
+    background-color: #ed9104;
+    color: white; }
+
+.buttonBlue {
+  border-color: #2198b5;
+  background-color: #3cbddc;
+  color: white;
+  text-shadow: 0 0 2px #176d81;
+  transition: background-color 300ms ease-out; }
+  .buttonBlue:hover, .buttonBlue:focus {
+    background-color: #24abcb;
+    color: white; }
+
+.buttonGreenLight {
+  border-color: #13816e;
+  background-color: #1cbb9f;
+  color: white;
+  text-shadow: 0 0 2px #0b4c41;
+  transition: background-color 300ms ease-out; }
+  .buttonGreenLight:hover, .buttonGreenLight:focus {
+    background-color: #179881;
+    color: white; }
+
+.buttonPinkDark {
+  border-color: #954447;
+  background-color: #b86366;
+  color: white;
+  text-shadow: 0 0 2px #6b3133;
+  transition: background-color 300ms ease-out; }
+  .buttonPinkDark:hover, .buttonPinkDark:focus {
+    background-color: #a64c4f;
+    color: white; }
+
+.buttonBeige {
+  border-color: #c47f30;
+  background-color: #d89f5e;
+  color: white;
+  text-shadow: 0 0 2px #935f24;
+  transition: background-color 300ms ease-out; }
+  .buttonBeige:hover, .buttonBeige:focus {
+    background-color: #d08b3d;
+    color: white; }
+
+.buttonBlueDark {
+  border-color: #283035;
+  background-color: #44525b;
+  color: white;
+  text-shadow: 0 0 2px #0d1012;
+  transition: background-color 300ms ease-out; }
+  .buttonBlueDark:hover, .buttonBlueDark:focus {
+    background-color: #333d44;
+    color: white; }
